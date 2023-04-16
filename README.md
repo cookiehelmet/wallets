@@ -32,4 +32,4 @@ The wallet implementation is quite simple. A user can create wallets by invoking
 
 Signing messages is accomplished through the POST /wallets/:id/sign endpoint. For simplicity, it performs a jwt.sign using a symmetric signing method with the wallet ID as the secret key.
 
-You can find more examples in tests/wallet.test.js.
+You can find more examples in `tests/wallet.test.js`.
